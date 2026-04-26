@@ -15,7 +15,7 @@ function Footer() {
           <div className="footer__brand">
             <a href="#home" className="footer__logo">
               {/* <div className="footer__logo-mark">Z</div> */}
-              <img src="src\assets\Zgyy-Marketing.jpg" alt="" className="footer_logo"/>
+              <img src="https://github.com/AnmolSharma29/zgyymarketing/blob/main/src/assets/Zgyy-Marketing.jpg" alt="" className="footer_logo"/>
               <span className="footer__logo-text">ZGYY MARKETING<span className="footer__logo-accent">.</span></span>
             </a>
             <p className="footer__tagline">
