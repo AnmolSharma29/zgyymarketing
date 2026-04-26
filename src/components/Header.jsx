@@ -26,8 +26,9 @@ function Header() {
     <header className={`header ${scrolled ? 'header--scrolled' : ''}`}>
       <div className="container header__inner">
         <a href="#home" className="header__logo" onClick={(e) => handleNavClick(e, '#home')}>
-          <div className="header__logo-mark">Z</div>
-          <span className="header__logo-text">ZGYY<span className="header__logo-accent">.</span></span>
+          {/* <div className="header__logo-mark">Z</div> */}
+          <img src="src\assets\Zgyy-Marketing.jpg" alt="" className="header_logo"/>
+          <span className="header__logo-text">ZGYY MARKETING<span className="header__logo-accent">.</span></span>
         </a>
 
         <button

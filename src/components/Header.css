@@ -9,6 +9,11 @@
   transition: all var(--transition);
 }
 
+.header_logo{
+  height: 80px;
+  border-radius: 100%;
+}
+
 .header--scrolled {
   background-color: rgba(250, 247, 242, 0.92);
   backdrop-filter: blur(12px);
