@@ -27,7 +27,7 @@ function Header() {
       <div className="container header__inner">
         <a href="#home" className="header__logo" onClick={(e) => handleNavClick(e, '#home')}>
           {/* <div className="header__logo-mark">Z</div> */}
-          <img src="https://github.com/AnmolSharma29/zgyymarketing/blob/main/src/assets/Zgyy-Marketing.jpg" alt="" className="header_logo"/>
+          <img src="https://raw.githubusercontent.com/AnmolSharma29/zgyymarketing/refs/heads/main/src/assets/Zgyy-Marketing.jpg" alt="" className="header_logo"/>
           <span className="header__logo-text">ZGYY MARKETING<span className="header__logo-accent">.</span></span>
         </a>
 
